@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b632e56a-f3b4-492c-8f6e-c3175e005835" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CloningRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CloningRobots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CloningRobotsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CloningRobotsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheckArrayForSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CheckArrayForSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CloningRobots.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CloningRobots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CompoundSumFromSubArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CompoundSumFromSubArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RectanglesOnAPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RectanglesOnAPlane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseAnIntegerUsingOnlyMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReverseAnIntegerUsingOnlyMath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortStringNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortStringNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BubbleSortTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BubbleSortTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckArrayForSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckArrayForSumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CloningRobotsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CloningRobotsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CompoundSumFromSubArraysTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CompoundSumFromSubArraysTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InsertionSortTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InsertionSortTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReverseAnIntegerUsingOnlyMathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReverseAnIntegerUsingOnlyMathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SortStringNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortStringNumbersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +58,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,9 +78,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CloningRobotsTest">
+  <component name="RunManager" selected="JUnit.All in Whiteboard-Problems">
     <configuration name="All in Whiteboard Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Whiteboard-Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard-Problems" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -83,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Whiteboard-Problems" />
         <item itemvalue="JUnit.CloningRobotsTest" />
         <item itemvalue="JUnit.All in Whiteboard Problems" />
       </list>
@@ -111,6 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579232236583</updated>
       <workItem from="1579232240576" duration="5514000" />
+      <workItem from="1579271101402" duration="1904000" />
     </task>
     <servers />
   </component>
@@ -142,10 +167,11 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237778093" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1579234377536">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="152" y="0" key="SettingsEditor" timestamp="1579271323385">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579234377536" />
+    <state x="152" y="0" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1579271323385" />
     <state x="412" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579233383736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
