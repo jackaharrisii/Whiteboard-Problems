@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b632e56a-f3b4-492c-8f6e-c3175e005835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CloningRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CloningRobots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CloningRobotsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CloningRobotsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CloningRobotsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CloningRobotsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CloningRobotsTest">
     <configuration name="All in Whiteboard Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,8 +72,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CloningRobotsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CloningRobotsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CloningRobotsTest" />
         <item itemvalue="JUnit.All in Whiteboard Problems" />
       </list>
     </recent_temporary>
@@ -98,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579232236583</updated>
-      <workItem from="1579232240576" duration="2122000" />
+      <workItem from="1579232240576" duration="5514000" />
     </task>
     <servers />
   </component>
@@ -110,6 +122,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="20" key="#Project_Structure/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579233326773" />
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579237776523">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237776523" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1579237778093">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237778093" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1579237778093">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237778093" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1579237778093">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237778093" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1579237778093">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579237778093" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1579234377536">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

@@ -14,9 +14,35 @@ Example: Plant 10 crops
 16 robots: 5 days, 16 crops*
 Answer: 5 days
 
-*note that there is no situation where more robots than required crops saves us a day, because math
+Example: Plant 20 crops
+1 robot   : 20 days : 20 crops
+2 robots  : 11 days : 20 crops
+4 robots  : 7 days  : 20 crops
+8 robots  : 6 days  : 24 crops
+16 robots : 6 days  : 32 crops
+32 robots : 6 days  : 32 crops
 
-d1 + d1 = (d2)(r*2^d1)
+Example: Plant 30 crops
+1 robot   : 30 days : 30 crops
+2 robots  : 16 days : 30 crops
+4 robots  : 10 days : 32 crops
+8 robots  : 7 days  : 32 crops
+16 robots : 6 days  : 32 crops
+32 robots : 6 days  : 32 crops
+
+Example: Plant 50 crops
+1 robot   : 50 days : 50 crops
+2 robots  : 26 days : 50 crops
+4 robots  : 15 days : 52 crops
+8 robots  : 10 days : 56 crops
+16 robots : 8 days  : 64 crops
+32 robots : 7 days  : 64 crops
+64 robots : 7 days  : 64 crops
+
+*note that there is no situation where more robots than required crops saves us a day, because math
+that said, there is also no situation where simply making more robots than the required number of crops and planting once is beaten
+
+STRETCH GOAL: FIND THE FEWEST NUMBER OF ROBOTS THAT CAN DO THE TASK IN THE FEWEST NUMBER OF DAYS
 
  */
 
@@ -26,14 +52,26 @@ public class CloningRobots {
     Integer numberOfCrops = 0;
 
     public Integer findFewestDays(Integer cropGoal){
-        Integer days = Integer.MAX_VALUE;
-        Integer counter = 0;
-        for (int i = 1; numberOfRobots > cropGoal; i++){
-            for (int d = 1; numberOfCrops > cropGoal; d++) {
+        Integer days = 0;
+        for (int i = 1; numberOfRobots < cropGoal; i++){
+            goForthAndMultiply();
+            days++;
+        }
+        return days + 1;
+    }
 
+    public Integer[] findFewestRobots(Integer cropGoal){
+        Integer days = cropGoal;  // if the single robot does all the work
+        Integer lowestNumberOfRobots = 1;
+        for (int i = 1; numberOfRobots * 2 < cropGoal; i++){
+            goForthAndMultiply();
+            Integer count = i + (int)Math.ceil((cropGoal/numberOfRobots) + 0.5);
+            if (count < days){
+                days = count;
+                lowestNumberOfRobots = numberOfRobots;
             }
         }
-        return days;
+        return new Integer[] { lowestNumberOfRobots, days };
     }
 
     public void goForthAndMultiply(){

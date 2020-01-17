@@ -30,6 +30,76 @@ public class CloningRobotsTest {
         assertEquals(expected,actual);
     }
 
+    @Test
+    public void findFewestRobots_with_10_crops(){
+        Integer[] expected = {4, 5};
+        Integer[] actual = robots.findFewestRobots(10);
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_20_crops(){
+        Integer expected = 6;
+        Integer actual = robots.findFewestDays(20);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestRobots_with_20_crops(){
+        Integer[] expected = {8, 6};
+        Integer[] actual = robots.findFewestRobots(20);
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_30_crops(){
+        Integer expected = 6;
+        Integer actual = robots.findFewestDays(30);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestRobots_with_30_crops(){
+        Integer[] expected = {16, 6};
+        Integer[] actual = robots.findFewestRobots(30);
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_50_crops(){
+        Integer expected = 7;
+        Integer actual = robots.findFewestDays(50);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestRobots_with_50_crops(){
+        Integer[] expected = {32, 7};
+        Integer[] actual = robots.findFewestRobots(50);
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_127_crops(){
+        Integer expected = 8;
+        Integer actual = robots.findFewestDays(127);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_128_crops(){
+        Integer expected = 8;
+        Integer actual = robots.findFewestDays(128);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findFewestDays_with_129_crops(){
+        Integer expected = 9;
+        Integer actual = robots.findFewestDays(129);
+        assertEquals(expected,actual);
+    }
+
     /*
     SUPPORTING METHODS
      */
