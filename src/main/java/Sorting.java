@@ -1,6 +1,12 @@
 
 public class Sorting {
 
+    /*
+    BUBBLE SORT
+
+    A basic sorting algorigthm, good to learn how sorting works
+     */
+
     public static void bubbleSort(Integer[] a){
         boolean sorted = false;
         int temp;
@@ -95,6 +101,54 @@ public class Sorting {
             }
             values[j+1] = current;                                // this line inserts current into the now empty index of the array
         }
+    }
+
+    /*
+    QUICK SORT
+
+    [description]
+    generally preferred over Merge Sort for arrays.
+    Quick sort has the potential to be faster than Merge Sort or Heap Sort, because its inner loop can be efficiently implemented on most architectures, and in most real-world data, by changing the choice of pivot.
+
+    worst complexity = n^2
+    average complexity = N log N
+    best complexity = n
+     */
+
+    public <T extends Comparable<T>> void quickSort(T[] values){
+        // do stuff
+    }
+
+    /*
+    MERGE SORT
+
+    [description]
+    generally considered better when data is huge and stored in external storage
+    generally preferred over Quick Sort for Linked Lists
+        - Quick Sort uses a lot of random access using indexes, which must be done iteratively with a Linked List
+        - Merge Sort accesses data sequentially anyway, and as such is well suited to working with Linked Lists
+
+    worst complexity =
+    average complexity =
+    best complexity =
+     */
+
+    public <T extends Comparable<T>> void mergeSort(T[] values){
+        // do stuff
+    }
+
+     /*
+    HEAP SORT
+
+    [description]
+
+    worst complexity =
+    average complexity =
+    best complexity =
+     */
+
+    public <T extends Comparable<T>> void heapSort(T[] values){
+        // do stuff
     }
 
 }

@@ -9,5 +9,8 @@
         <module name="Whiteboard Problems" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Whiteboard Problems" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
