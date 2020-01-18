@@ -74,7 +74,7 @@ public class CloningRobotsTest {
 
     @Test
     public void findFewestRobots_with_50_crops(){
-        Integer[] expected = {32, 7};
+        Integer[] expected = {32, 7git };
         Integer[] actual = robots.findFewestRobots(50);
         assertArrayEquals(expected,actual);
     }
