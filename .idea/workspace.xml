@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997029d4-18ae-4143-bf17-69afffe89190" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MergeSortTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BubbleSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BubbleSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BubbleSortTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BubbleSortTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,12 +41,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MergeSortTests">
     <configuration name="All in Whiteboard Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
       <option name="PACKAGE_NAME" value="" />
@@ -46,8 +71,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbleSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BubbleSortTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeSortTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTests.mergeHalvesInt_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeSortTests" />
+      <option name="METHOD_NAME" value="mergeHalvesInt_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTests" />
+        <item itemvalue="JUnit.BubbleSortTests" />
+        <item itemvalue="JUnit.MergeSortTests.mergeHalvesInt_Test" />
         <item itemvalue="JUnit.All in Whiteboard Problems" />
       </list>
     </recent_temporary>
@@ -74,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579382299149</updated>
-      <workItem from="1579382340022" duration="843000" />
+      <workItem from="1579382340022" duration="4572000" />
     </task>
     <servers />
   </component>
@@ -82,6 +138,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579467685663">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467685663" />
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1579467952262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467952262" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1579467952262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467952262" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1579467952262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467952262" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1579467952262">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467952262" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1579383199331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -90,5 +166,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579382347708" />
+    <state x="405" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579466731259">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="405" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579466731259" />
   </component>
 </project>

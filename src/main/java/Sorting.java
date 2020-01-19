@@ -129,12 +129,68 @@ public class Sorting {
         - Merge Sort accesses data sequentially anyway, and as such is well suited to working with Linked Lists
 
     worst complexity =
-    average complexity =
+    average complexity = O(N log N) (+ O(n) space)
     best complexity =
      */
 
-    public <T extends Comparable<T>> void mergeSort(T[] values){
-        // do stuff
+    public void mergeSort(Integer[] values){
+        mergeSort(values, new Integer[values.length], 0, values.length - 1);
+    }
+
+    public void mergeSort(Integer[] values, Integer[] temp, Integer leftStart, Integer rightEnd){
+        if (leftStart >= rightEnd) return;
+        Integer middle = (leftStart + rightEnd) /2;
+        mergeSort(values,temp,leftStart,middle);
+        mergeSort(values,temp,middle+1,rightEnd);
+        mergeHalves(values,temp, leftStart,rightEnd);
+    }
+
+    public void mergeHalves(Integer[] values, Integer[] temp, Integer leftStart, Integer rightEnd){
+        Integer leftEnd = (rightEnd + leftStart) /2;
+        Integer rightStart = leftEnd + 1;
+        Integer size = rightEnd - leftStart +1;
+        Integer left = leftStart;
+        Integer right = rightStart;
+        Integer index = leftStart;
+
+        while (left <= leftEnd && right <= rightEnd){
+            if (values[left] <= values[right]){
+                temp[index] = values[left];
+                left++;
+            } else {
+                temp[index] = values[right];
+                right++;
+            }
+            index++;
+        }
+        System.arraycopy(values, left, temp, index, leftEnd - left +1);
+        System.arraycopy(values, right, temp, index, rightEnd - right +1);
+        System.arraycopy(temp, leftStart, values, leftStart, size);
+    }
+
+    public void mergeSort(String[] values){
+        mergeSort(values, new String[values.length], 0, values.length - 1);
+
+    }
+
+    public void mergeSort(String[] values, String[] temp, Integer leftStart, Integer rightEnd) {
+
+    }
+
+    public void mergeHalves(String[] values, String[] temp, Integer leftStart, Integer rightEnd) {
+
+    }
+
+    public <T extends Comparable<T>> void mergeSortGeneric(T[] values){
+
+    }
+
+    public <T extends Comparable<T>> void mergeSortGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
+
+    }
+
+    public <T extends Comparable<T>> void mergeHalvesGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
+
     }
 
      /*
