@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Sorting {
 
@@ -204,43 +206,48 @@ public class Sorting {
         System.arraycopy(temp, leftStart, values, leftStart, size);
     }
 
-    public <T extends Comparable<T>> void mergeSortGeneric(T[] values){
-        T[] temp = (T[])new Object[values.length];
-        mergeSortGeneric(values, temp, 0, values.length - 1);
+    /*
+    MERGE SORT DOES NOT WORK WITH GENERICS WITHOUT SOME ROUNDABOUT WORK
+    BECAUSE YOU CAN'T MAKE A GENERIC ARRAY
+     */
 
-    }
-
-    public <T extends Comparable<T>> void mergeSortGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
-        if (leftStart >= rightEnd) return;
-        Integer middle = (leftStart + rightEnd) /2;
-        mergeSortGeneric(values, temp, leftStart, middle);
-        mergeSortGeneric(values,temp,middle+1, rightEnd);
-        mergeHalvesGeneric(values,temp, leftStart, rightEnd);
-    }
-
-    public <T extends Comparable<T>> void mergeHalvesGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
-        Integer leftEnd = (rightEnd + leftStart) /2;
-        Integer rightStart = leftEnd + 1;
-        Integer size = rightEnd - leftStart +1;
-        Integer left = leftStart;
-        Integer right = rightStart;
-        Integer index = leftStart;
-
-        while (left <= leftEnd && right <= rightEnd){
-            if (values[left].compareTo(values[right]) <= 0){
-                temp[index] = values[left];
-                left++;
-            } else {
-                temp[index] = values[right];
-                right++;
-            }
-            index++;
-        }
-        System.arraycopy(values, left, temp, index, leftEnd - left +1);
-        System.arraycopy(values, right, temp, index, rightEnd - right +1);
-        System.arraycopy(temp, leftStart, values, leftStart, size);
-
-    }
+//    public <T extends Comparable<T>> void mergeSortGeneric(T[] values){
+//        T[] temp = (T[])new Object[values.length];
+//        mergeSortGeneric(values, new ArrayList<T>(), 0, values.length - 1);
+//
+//    }
+//
+//    public <T extends Comparable<T>> void mergeSortGeneric(T[] values, ArrayList<T> temp, Integer leftStart, Integer rightEnd) {
+//        if (leftStart >= rightEnd) return;
+//        Integer middle = (leftStart + rightEnd) /2;
+//        mergeSortGeneric(values, temp, leftStart, middle);
+//        mergeSortGeneric(values, temp,middle+1, rightEnd);
+//        mergeHalvesGeneric(values, temp, leftStart, rightEnd);
+//    }
+//
+//    public <T extends Comparable<T>> void mergeHalvesGeneric(T[] values, ArrayList<T> temp, Integer leftStart, Integer rightEnd) {
+//        Integer leftEnd = (rightEnd + leftStart) /2;
+//        Integer rightStart = leftEnd + 1;
+//        Integer size = rightEnd - leftStart +1;
+//        Integer left = leftStart;
+//        Integer right = rightStart;
+//        Integer index = leftStart;
+//
+//        while (left <= leftEnd && right <= rightEnd){
+//            if (values[left].compareTo(values[right]) <= 0){
+//                temp.set(index, values[left]);
+//                left++;
+//            } else {
+//                temp.set(index, values[right]);
+//                right++;
+//            }
+//            index++;
+//        }
+//        System.arraycopy(values, left, (T[])temp, index, leftEnd - left +1);
+//        System.arraycopy(values, right, temp, index, rightEnd - right +1);
+//        System.arraycopy(temp, leftStart, values, leftStart, size);
+//
+//    }
 
      /*
     HEAP SORT
