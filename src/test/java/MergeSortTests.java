@@ -112,7 +112,7 @@ public class MergeSortTests {
         Integer rightEnd = 1;
         Integer[] expected = {1, 2};
         // When
-        sorting.mergeHalves(values,temp,leftStart,rightEnd);
+        sorting.mergeHalvesGeneric(values,temp,leftStart,rightEnd);
         // Then
         assertArrayEquals(expected, values);
     }
@@ -127,7 +127,7 @@ public class MergeSortTests {
         Integer rightEnd = 1;
         Integer[] expected = {1, 2};
         // When
-        sorting.mergeHalves(values,temp,leftStart,rightEnd);
+        sorting.mergeHalvesGeneric(values,temp,leftStart,rightEnd);
         // Then
         assertArrayEquals(expected, values);
     }

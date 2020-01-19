@@ -174,22 +174,71 @@ public class Sorting {
     }
 
     public void mergeSort(String[] values, String[] temp, Integer leftStart, Integer rightEnd) {
-
+        if (leftStart >= rightEnd) return;
+        Integer middle = (leftStart + rightEnd) /2;
+        mergeSort(values, temp, leftStart, middle);
+        mergeSort(values,temp,middle+1, rightEnd);
+        mergeHalves(values,temp, leftStart, rightEnd);
     }
 
     public void mergeHalves(String[] values, String[] temp, Integer leftStart, Integer rightEnd) {
+        Integer leftEnd = (rightEnd + leftStart) /2;
+        Integer rightStart = leftEnd + 1;
+        Integer size = rightEnd - leftStart +1;
+        Integer left = leftStart;
+        Integer right = rightStart;
+        Integer index = leftStart;
 
+        while (left <= leftEnd && right <= rightEnd){
+            if (values[left].compareTo(values[right]) <= 0){
+                temp[index] = values[left];
+                left++;
+            } else {
+                temp[index] = values[right];
+                right++;
+            }
+            index++;
+        }
+        System.arraycopy(values, left, temp, index, leftEnd - left +1);
+        System.arraycopy(values, right, temp, index, rightEnd - right +1);
+        System.arraycopy(temp, leftStart, values, leftStart, size);
     }
 
     public <T extends Comparable<T>> void mergeSortGeneric(T[] values){
+        T[] temp = (T[])new Object[values.length];
+        mergeSortGeneric(values, temp, 0, values.length - 1);
 
     }
 
     public <T extends Comparable<T>> void mergeSortGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
-
+        if (leftStart >= rightEnd) return;
+        Integer middle = (leftStart + rightEnd) /2;
+        mergeSortGeneric(values, temp, leftStart, middle);
+        mergeSortGeneric(values,temp,middle+1, rightEnd);
+        mergeHalvesGeneric(values,temp, leftStart, rightEnd);
     }
 
     public <T extends Comparable<T>> void mergeHalvesGeneric(T[] values, T[] temp, Integer leftStart, Integer rightEnd) {
+        Integer leftEnd = (rightEnd + leftStart) /2;
+        Integer rightStart = leftEnd + 1;
+        Integer size = rightEnd - leftStart +1;
+        Integer left = leftStart;
+        Integer right = rightStart;
+        Integer index = leftStart;
+
+        while (left <= leftEnd && right <= rightEnd){
+            if (values[left].compareTo(values[right]) <= 0){
+                temp[index] = values[left];
+                left++;
+            } else {
+                temp[index] = values[right];
+                right++;
+            }
+            index++;
+        }
+        System.arraycopy(values, left, temp, index, leftEnd - left +1);
+        System.arraycopy(values, right, temp, index, rightEnd - right +1);
+        System.arraycopy(temp, leftStart, values, leftStart, size);
 
     }
 
