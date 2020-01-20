@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997029d4-18ae-4143-bf17-69afffe89190" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MergeSortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MergeSortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Whiteboard Problems.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,9 +61,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Whiteboard Problems">
+  <component name="RunManager" selected="JUnit.All in Whiteboard-Problems">
     <configuration name="All in Whiteboard Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Whiteboard-Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard-Problems" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -98,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Whiteboard-Problems" />
         <item itemvalue="JUnit.All in Whiteboard Problems" />
         <item itemvalue="JUnit.MergeSortTests" />
         <item itemvalue="JUnit.BubbleSortTests" />
@@ -128,6 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579382299149</updated>
       <workItem from="1579382340022" duration="8747000" />
+      <workItem from="1579552308122" duration="383000" />
     </task>
     <servers />
   </component>
@@ -139,30 +151,35 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579467685663" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1579474959870">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1326" height="239" key="GridCell.Tab.0.bottom" timestamp="1579552355278">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579474959870" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1579474959870">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1326" height="239" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1579552355278" />
+    <state width="1326" height="239" key="GridCell.Tab.0.center" timestamp="1579552355278">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579474959870" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1579474959870">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1326" height="239" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1579552355278" />
+    <state width="1326" height="239" key="GridCell.Tab.0.left" timestamp="1579552355278">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579474959870" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1579474959870">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1326" height="239" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1579552355278" />
+    <state width="1326" height="239" key="GridCell.Tab.0.right" timestamp="1579552355278">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579474959870" />
+    <state width="1326" height="239" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1579552355278" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1579383199331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579383199331" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579382347708">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="360" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579552313834">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720/-1920.0.1097.617@0.0.1280.720" timestamp="1579382347708" />
+    <state x="360" y="236" key="com.intellij.ide.util.TipDialog/0.0.1368.912@0.0.1368.912" timestamp="1579552313834" />
     <state x="405" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579466731259">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

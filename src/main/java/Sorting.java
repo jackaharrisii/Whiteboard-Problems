@@ -109,6 +109,7 @@ public class Sorting {
     QUICK SORT
 
     [description]
+    splits array based on value comparison, then rejoins in order
     generally preferred over Merge Sort for arrays.
     Quick sort has the potential to be faster than Merge Sort or Heap Sort, because its inner loop can be efficiently implemented on most architectures, and in most real-world data, by changing the choice of pivot.
 
@@ -116,6 +117,14 @@ public class Sorting {
     average complexity = N log N
     best complexity = n
      */
+
+    public void quickSort(Integer[] values){
+
+    }
+
+    public void quickSort(String[] values){
+
+    }
 
     public <T extends Comparable<T>> void quickSort(T[] values){
         // do stuff
@@ -125,6 +134,7 @@ public class Sorting {
     MERGE SORT
 
     [description]
+    Splits array based on index values, then sorts as it re-joins the sub-arrays
     generally considered better when data is huge and stored in external storage
     generally preferred over Quick Sort for Linked Lists
         - Quick Sort uses a lot of random access using indexes, which must be done iteratively with a Linked List
