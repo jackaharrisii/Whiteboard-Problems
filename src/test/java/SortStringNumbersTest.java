@@ -62,6 +62,18 @@ public class SortStringNumbersTest {
     }
 
     @Test
+    public void sort_a_list_that_includes_leading_zeroes_including_zero(){
+        //Given
+        String[]testArray = new String[]{"001","5","15","09","000","4"};
+        String[]expected = new String[]{"000","001","4","5","09","15"};
+        //When
+        sort.sortStringNumbers(testArray);
+        //Then
+        assertArrayEquals(expected,testArray);
+    }
+
+
+    @Test
     public void sort_a_list_that_includes_one_negative_number(){
         // Given
         String[] testArray = new String[]{"1", "5", "15", "-9", "4"};

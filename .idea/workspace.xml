@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Whiteboard-Problems">
+  <component name="RunManager" selected="JUnit.SortStringNumbersTest">
     <configuration name="All in Whiteboard Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,15 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Whiteboard Problems" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BubbleSortTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MergeSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Whiteboard Problems" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,11 +87,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTests.mergeHalvesInt_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Whiteboard Problems" />
+    <configuration name="SortStringNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard-Problems" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeSortTests" />
-      <option name="METHOD_NAME" value="mergeHalvesInt_Test" />
+      <option name="MAIN_CLASS_NAME" value="SortStringNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStringNumbersTest.sort_a_list_that_includes_leading_zeroes_including_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Whiteboard-Problems" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SortStringNumbersTest" />
+      <option name="METHOD_NAME" value="sort_a_list_that_includes_leading_zeroes_including_zero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortStringNumbersTest" />
+        <item itemvalue="JUnit.SortStringNumbersTest.sort_a_list_that_includes_leading_zeroes_including_zero" />
         <item itemvalue="JUnit.All in Whiteboard-Problems" />
         <item itemvalue="JUnit.All in Whiteboard Problems" />
         <item itemvalue="JUnit.MergeSortTests" />
-        <item itemvalue="JUnit.BubbleSortTests" />
-        <item itemvalue="JUnit.MergeSortTests.mergeHalvesInt_Test" />
       </list>
     </recent_temporary>
   </component>
