@@ -125,6 +125,11 @@ public class SortStringNumbers {
         return "0";
     }
 
+    public String removeSpaces(String input){
+        // do some stuff here
+        return "";
+    }
+
     public void bubbleSortByStringLength(String[] a){
         boolean sorted = false;
         String temp;
@@ -139,6 +144,11 @@ public class SortStringNumbers {
                 }
             }
         }
+    }
+
+    public String makeFractionComparable(String input){
+        // no idea how to solve this without math
+        return "";
     }
 
 }
