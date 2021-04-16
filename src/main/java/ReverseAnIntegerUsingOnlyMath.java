@@ -15,4 +15,13 @@ public class ReverseAnIntegerUsingOnlyMath {
         return output;
     }
 
+    public int reverseIntForLoop(int input) {
+        int output = 0;
+        for (int index = input; index !=0; index /= 10) {
+            output = output * 10 + index % 10;
+        }
+        return output;        
+    }
+}
+
 }
