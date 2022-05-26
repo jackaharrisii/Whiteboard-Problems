@@ -12,6 +12,7 @@ Edge Cases:
 Bleeding Edge Case and Data Validation:
 - replace words from array which are not numbers with a blank string "", i.e., {"1", "cat", "5"} returns {"", "1", "5"}
 - number is spelled out ("nine" instead of "9") <- not sure how to get this one so far, but probably a really thorough regex.....
+- fractions
 
 */
 
